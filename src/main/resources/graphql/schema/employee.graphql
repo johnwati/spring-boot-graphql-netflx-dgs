@@ -1,0 +1,13 @@
+type Employee{
+    _id: ID
+    fullName: String
+    gender: Gender
+    addressList: [Address]
+    department: Department
+
+}
+
+type QueryEmployee{
+    allHellos: [Hello]
+    oneHello : Hello
+}

@@ -1,0 +1,11 @@
+dgs:
+  graphql:
+    schema-locations:
+        - classpath*:graphql/**/*graphql*
+        - classpath*:graphql/**/*grql
+
+
+spring:
+    data:
+      mongodb:
+        uri: mongodb://root:example@localhost:27017/bankAccount?authSource=admin
